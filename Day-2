@@ -1,75 +1,26 @@
-WEB DEVELOPMENT refers to the creating building and maintaining of webites. It includes aspects such as web design, webpublishing, web programming and web application. WEB APPLICATION which work through the Internet.
+EPISODE 2 - Understanding Internet, Networks, Web and more || Episode - 2
 
-INTERNET-interconnectivity among multiple computers.
+1) NETWORK -  Interconnected different resources(Computer, print, laptop) within single system.
 
-INTRANET-Internal Privet network can be accesed in only an organization.
+1.1) LAN (Local Area Network) - system exists on a small scale (building, school, company)
+1.2) MAN (MetroPolitan Area Network) - system exists on a middle scale (towns, cities, states) 
+1.3) WAN (Wide Area Network) - system exists on a larger scale (countries, across globe)
 
+2) Internet : It is global system where billions of device interconnected with each other (network of networks) 
 
-Extranet-Allows users outside the Intr Intranet to access to organisation.
+3) Web : Interconnected documents, devices and resources access using internet. 
 
-Network -A network consists of two or more collection of Computers that are linked or connected together inorder to Share resources, exchange files or allow communications. which are connected through cables, telehone lines, radio waves, Signals(wireless) etc----
- 
-LAN
-This is the most used network.
-A LAN is a connection or connectivity between two or more computers (e any internet device) within a limited / Restricted area. generally say it might be a building or a home/college / office etc..
-Contains switches, cables, routers, acess points etc -- Techonologies includes wifi and Ethernet
+4) IP Address : Address to identify each device uniquely. 
 
-Advantage - Ease of cost
+5) Browser : It is a tool to access documents, websites, web applications. 
 
-Speed fastness Can We Break down Connection into multiple connections (ULAN).
+6) Browser Engine : It is an application which is is used to access resources[websites, web applications]. 
+Ex - Chrome(Google)(Blink engine), Safari(Apple)(Webkit engine), Firefox(Quantum browser engine), Opera(Blink, V8)
 
-Disadvantages
+7) Client : Who request for something (Requests ex. Get, Put, Put, Delete) 
+Ex. Laptop, PC, App, CLI
 
-Restricted Area of usage (Ro (Range). There is a central point in LAN, if fails to work everything
- 
-VLAN Virtual LAN
+8) Server : Who full-fill requests of client and gives response to the server.
+Ex. App, Web, DB, File
 
-  VIANS are used to split a network traffic into two or more without using any external hardware devices. Traffic This uses her software technology to split the connection into two.
-
-Example-Day to Day life
-
-Suppose that in a house of two families a single LAN is used. We can use VLAN to split the traffic Separate into two and this acts as the two site. LAN Connections.
-[10:13 pm, 15/05/2023] Krish Patel Tulisagari: MAN
-
-It does the work of collection of LAND as a single Unit and accuracy of speed is precise and works over a large ea!
-
-Multiple LANS Can be Operated Managed
-
-Advantages
-
-1) Resource Shaving 
-2) Data Exchange
-3) Internet Acess.
-4) Video and Audio Streaming
-5) Backup and Recovery 
-6) Disaster Recovery.
-7) Centralised Management
-
-Disadvantages
-
-Cost High
-Security
-Latency 
-Bandwidth limitations
-
-WAN WIDE AREA NETWORK.(100km range)
-
-This type of network provides connectivity to MAN and LAN
-A computer network that connects computer in a large area (Metropolitan Areas) Multiple buildings, multiple users.
-
-This is most basic form of network. It is a Single user network who utilizes communication among his/her devices.
-
-PERSONAL AREA NETWORK. PAN
-
-Adv --High speed, less cost
-
-Using--Bluetooth, Irda, zigbee etc-
-
-Ex USB, Computer, Phone, Tablet etc.
-
-PERSONAL AREA NETWORK  CAN>> LAN
-Limited Area range
-
-CAN CAMPUS AREA NETWORK
-This is used in Campus / school utilites for Block
-College.
+9) DNS[Domain Name System] : It convert domain name into IP address.
