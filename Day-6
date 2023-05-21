@@ -1,0 +1,91 @@
+what we have learnt in this lecture??
+1. Emmet abbreviations..
+    > (for nesting)
+    + (for next tag without nesting)
+    #(for id attribute)
+    . (for class attribute)
+    {}( To write some content)
+
+2. Div tag
+3. Block and inline elements
+4.Navigation bar (<nav> tag)
+5. How to create Hyperlink , Email and telephone call using anchor <a> tag
+6. HOMEWORK : 
+     a. Read block and inline elements from mdn.
+     b. Can we convert a block element into inline element and vice versa?
+     c. How could i place content of list side by side instead of vertical?
+     d. How to remove dots in a list?
+     e. How to create bookmark using anchor <a> tag?
+     
+     
+     ................................................................................................................................................................
+     CODE
+     ________________________________________________________________________________________________________________________________________________________________
+     
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p><img src="" alt=""></p>
+    <p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </p>
+    <article></article>
+    <section></section>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <article>i am chandan</article>
+    <p><img src="" alt=""></p>
+    <p></p>
+    <img src="" alt="">
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p id="para"></p>
+    <p class="para"></p>
+    <article class="para"></article> -->
+    <div class="container"></div>
+    <p style="background-color: aqua;"><span>i am chandan</span></p>
+    <p style="background-color: aqua;">i am chandan</p>
+    <!-- <ul>
+        <p><a href=""></a></p>
+    </ul>
+    <ul>
+        <p><a href=""></a></p>
+    </ul>
+    <ul>
+        <p><a href=""></a></p>
+    </ul>
+    <ul>
+        <p><a href=""></a></p>
+    </ul>
+    <ul>
+        <p><a href=""></a></p>
+    </ul>
+    <ul>
+        <p><a href=""></a></p>
+    </ul>
+    <ul>
+        <p><a href=""></a></p>
+    </ul> -->
+   <nav>
+    <ul>
+        <li><a href="">home</a></li>
+    </ul>
+   </nav>
+   <nav>
+    <ul>
+        <li><a href="">address</a></li>
+    </ul>
+   </nav>
+   <nav>
+    <ul>
+        <li><a href="">Contact</a></li>
+    </ul>
+   </nav>
+</body>
+</html>
