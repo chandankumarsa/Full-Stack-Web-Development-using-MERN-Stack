@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: rgb(26, 101, 167);">THIS IS MY FIRST HEADING</h1>
+    <h2>THIS IS MY SECOUND HEADING</h2>
+    <h3>THIS IS MY THIRD HEADING</h3>
+    <h4>THIS IS MY FOURTH HEADING</h4>
+    <h5>THIS IS MY FIVETH HEADING</h5>
+    <h6>THIS IS MY SIXTH HEADING</h6>
+    <p>THIS IS MY FIRST PARAGRAPH</p>
+    <a href="https:/google.com">click here</a>
+
+    <ul>
+        <li>maggie</li>
+        <li>coffee</li>
+        <li>tea</li>
+    </ul>
+    <ol>
+        <li>first</li>
+        <li>secound</li>
+        <li>third</li>
+    </ol>
+    <table>
+    <tr>
+        <td>sr.no</td>
+        <td>name</td>
+        <td>login</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>a</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>b</td>
+        <td>4</td>
+    </tr>
+</table>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUUDIWZF5wMie9Tlz_tZIVlZ7kH4ApfoiVgUVXhIma&s" alt="image">
+<p>Lorem <s>ipsum dolor sit amet </s>consectetur adipisicing elit. 
+    Quae eaque nihil dolores necessitatibus error quos perferendis accusantium, ullam vitae numquam dolorum animi tempora expedita vel laudantium nostrum ducimus ipsum autem harum fuga ipsa fugit at. Consequuntur, nihil assumenda veritatis saepe in obcaecati deserunt debitis, impedit eveniet porro rerum nisi! Non?</p>
+    2<sup>5</sup>
+    o<sub>2</sub>
+</body>
+</html>
