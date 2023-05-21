@@ -1,20 +1,17 @@
-<html>
-<head><title>INTRODUCTION</title>
-<body>
-<B ALIGN='CENTER'>                  FULL STACK WEBDEVELOPMENT</B>
-<br></br>
-<P>DO AND DO NOT RULES</P>
-<P>*Don not watch like a movie--Always maintain a running notes</P>
-<P>*Learn By Applying pratically,avoid only sticking to Lectures</P>
-<P>**Always add your track**
-1)Take google reference but never copy & paste that makes you incapable to think how things work
+EPISODE 1 - Let's learn Full Stack Web Development using MERN Stack || Episode-1
 
-2)Apply your ideas to real time application like creating an Website
+1) WEB - It is a system where documents and resources are present in interconnected format and can be accessed using internet.
 
-</P>
-<P>*Practise...Practise..Practisee</P>
-<P>*keep Practsing and keep doing</P>
-<P>*************Continued*********** </P>
-</body>
-</head>
-</html>
+2) WEBSITES - multiple web pages where only static content is present. ex- Wikipedia, blogs websites etc.
+
+3) WEB-APPS - multiple web pages where dynamic content is present and usually where most of the user interaction is present. ex- LinkedIn, Instagram, Facebook, WeatherApp etc.
+
+4) WEB-APPLICATION LAYERS - 
+
+4.1) FrontEnd (UI/UX) - HTML, CSS, JAVASCRIPT
+4.2) BackEnd (Brain of Web-App) -  JAVASCRIPT, PYTHON, PHP, JAVA, RUBY, NODEJS, EXPRESSJS etc.
+4.3) Database Layer (manipulate data) - NOSQL, SQL, MYSQL, POSTGRESQL, MONGODB etc.
+
+5) FULL STACK DEVELOPMENT - It is a combination of all 3 layers i.e, FrontEnd + BackEnd + Database.
+
+6) TECH'S GOING TO BE USED IN THIS COURSE - M(MONGODB) E(EXPRESSJS) R(REACTJS) N(NODEJS)
