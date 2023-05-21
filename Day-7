@@ -1,0 +1,221 @@
+What we have learnt in this lecture??
+- Tables in HTML
+- Tags used in tables in HTML(<table> <thead> <tbody> <tfoot> <thh> <tr> <td>)
+- row span : used to extend columns
+- col span : used to extend rows
+- created 4 tables in the lecture and we have to create 2 tables in homework..
+...................................................................................................................................................................................................................................................................................................
+CODE
+...................................................................................................................................................................................................................................................................................................
+(index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">   
+        <thead>
+            <th>Strudent Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>Bill</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>bill</td>
+                <td>female</td>
+                <td rowspan="3">20</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>Bill</td>
+                <td>Male</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>Bill</td>
+                <td>Male</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+...................................................................................................................................................................................................................................................................................................
+
+CODE
+...................................................................................................................................................................................................................................................................................................
+(exampleone.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+            <td>Column3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 2</td>
+            <td>Row 1 cell 2</td>
+            <td>Row 1 cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 cell 2</td>
+            <td>Row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 cell 1</td>
+        </tr>
+    </table>
+</body>
+</html>
+..........................................................................................................................................................................................................................................................................................
+CODE
+...................................................................................................................................................................................................................................................................................................
+(example2.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>NO.</th>
+            <th>FULL NAME.</th>
+            <th>POSITION</th>
+            <th>SALARY</th>
+            <th>TYPE</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steaf jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mark zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    Total Expense
+                </td>
+                <td>
+                    $4600
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+...................................................................................................................................................................................................................................................................................................
+CODE
+...................................................................................................................................................................................................................................................................................................
+(homework.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan3>Seminar</td>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">
+                    Monday
+                </td>
+                <td rowspan="2">8:00am</td>
+                <td rowspan="2">5:00Pm</td>
+                <td>Introduction to xml</td>
+            </tr>
+            <tr>
+                <td>Validity DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tueseday</td>
+                <td>8:00 a.m</td>
+                <td>11:00 a.m</td>
+                <td rowspan="2">Xpath</td>
+            </tr>
+            <tr>
+                <td>11:00 am</td>
+                <td>2:00 pm</td>
+            </tr>
+            <tr>
+                <td>2:00pm</td>
+                <td>5:00pm</td>
+                <td>XSL TRANSFORMATION</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m</td>
+                <td>12:00 p.m</td>
+                <td>XSL FORMATTING OBJECTS</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
